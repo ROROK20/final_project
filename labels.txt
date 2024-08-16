@@ -1,0 +1,6 @@
+chinese
+european
+indian
+japanese
+mexican
+us
