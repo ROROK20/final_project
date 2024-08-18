@@ -2,7 +2,15 @@
 
 # Image Classification of Coins with Jetson Nano
 
-This project demonstrates the power of NVIDIA's Jetson Nano by using a ResNet-18 model to classify images. It’s a simple yet effective example of how deep learning can be leveraged on edge devices for image recognition tasks. Whether you're new to AI or have some experience, this project showcases the potential of AI in a compact, easy-to-understand way.
+This project demonstrates the power of NVIDIA's Jetson Nano by using a ResNet-18 model to classify images. It’s a simple yet effective example of how deep learning can be leveraged on edge devices for image recognition tasks. Whether you're new to AI or have some experience, this project showcases the potential of AI in a compact, easy-to-understand way. 
+
+This project classifies among different coins: chinese, european, indian, japanese, mexican, us.
+
+## Dataset
+
+I got this dataset from Kaggle containing around 1,500 images. 
+
+Here is the link to the data: [Count Coins Image Dataset](https://www.kaggle.com/datasets/balabaskar/count-coins-image-dataset)
 
 ## The Algorithm
 
@@ -23,18 +31,18 @@ To run this project on your Jetson Nano, follow these steps:
 
 2. **Download or Clone the Repository:**
    Clone this repository to your Jetson Nano:
-   git clone <repository_url>
+   `git clone <repository_url>`
 
 3. **Prepare Your Image:**
    Have an image file ready that you want to classify. Make sure it's accessible from your Jetson Nano.
 
 4. **Run the Code:**
    Execute the script by specifying the filename of the image:
-   python3 coin_code.py ______________
+   `python3 coin_code.py <example_image>.jpg`
 
 5. **View the Results:**
    The terminal will display the image's classification along with the confidence percentage. For example:
-   image is recognized as 'european' (class #1) with 98.675432% confidence
+   image is recognized as 'european' (class #1) with 43.454221% confidence
 
 ### Dependencies
 - Jetson Inference Library
