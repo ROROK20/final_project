@@ -50,3 +50,5 @@ To run this project on your Jetson Nano, follow these steps:
 - Jetson Nano with JetPack installed
 
 That’s it! With just a few steps, you can run image classification on your Jetson Nano and explore the capabilities of AI at the edge.
+
+View a live demonstration of the functional project [here](https://drive.google.com/file/d/18omo6IGDJmWqJe-iQPRfKHWDtcOYkMlg/view?usp=sharing)
